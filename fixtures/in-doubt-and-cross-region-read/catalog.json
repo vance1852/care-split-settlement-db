@@ -1,0 +1,25 @@
+{
+  "case": "in-doubt-and-cross-region-read",
+  "files": {
+    "home": {
+      "sql": "home.sql",
+      "tables": {
+        "home_budget": 2
+      }
+    },
+    "visit": {
+      "sql": "visit.sql",
+      "tables": {
+        "visit_budget": 2
+      }
+    },
+    "meta": {
+      "sql": "meta.sql",
+      "tables": {
+        "care_links": 4
+      }
+    }
+  },
+  "event_count": 14,
+  "limits": {}
+}

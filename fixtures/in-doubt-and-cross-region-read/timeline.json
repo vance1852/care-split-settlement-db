@@ -1,0 +1,118 @@
+[
+  {
+    "at": 1,
+    "action": "settle",
+    "args": [
+      "tx1",
+      "c1",
+      11,
+      80
+    ]
+  },
+  {
+    "at": 2,
+    "action": "observed_prepare",
+    "args": [
+      "home",
+      "tx1",
+      7
+    ]
+  },
+  {
+    "at": 3,
+    "action": "observed_prepare",
+    "args": [
+      "visit",
+      "tx1",
+      10
+    ]
+  },
+  {
+    "at": 4,
+    "action": "decision_persisted",
+    "args": [
+      "tx1",
+      "commit",
+      9
+    ]
+  },
+  {
+    "at": 5,
+    "action": "observed_apply",
+    "args": [
+      "home",
+      "tx1",
+      8
+    ]
+  },
+  {
+    "at": 6,
+    "action": "offline",
+    "args": [
+      "visit"
+    ]
+  },
+  {
+    "at": 7,
+    "action": "read_pair",
+    "args": [
+      "tx1"
+    ]
+  },
+  {
+    "at": 8,
+    "action": "settle",
+    "args": [
+      "tx2",
+      "c2",
+      11,
+      70
+    ]
+  },
+  {
+    "at": 9,
+    "action": "settle",
+    "args": [
+      "tx3",
+      "c4",
+      11,
+      65
+    ]
+  },
+  {
+    "at": 10,
+    "action": "retry",
+    "args": [
+      "tx1",
+      "entrant-2"
+    ]
+  },
+  {
+    "at": 11,
+    "action": "online",
+    "args": [
+      "visit"
+    ]
+  },
+  {
+    "at": 12,
+    "action": "recover",
+    "args": [
+      "tx1"
+    ]
+  },
+  {
+    "at": 13,
+    "action": "read_pair",
+    "args": [
+      "tx1"
+    ]
+  },
+  {
+    "at": 14,
+    "action": "trim_history",
+    "args": [
+      9
+    ]
+  }
+]

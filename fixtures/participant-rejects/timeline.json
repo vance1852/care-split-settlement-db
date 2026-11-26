@@ -1,0 +1,36 @@
+[
+  {
+    "at": 1,
+    "action": "settle",
+    "args": [
+      "x",
+      "c1",
+      2,
+      80
+    ]
+  },
+  {
+    "at": 2,
+    "action": "observed_prepare",
+    "args": [
+      "home",
+      "x",
+      3
+    ]
+  },
+  {
+    "at": 3,
+    "action": "retry",
+    "args": [
+      "x",
+      "entrant-1"
+    ]
+  },
+  {
+    "at": 4,
+    "action": "read_pair",
+    "args": [
+      "x"
+    ]
+  }
+]

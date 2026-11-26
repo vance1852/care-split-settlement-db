@@ -1,0 +1,25 @@
+{
+  "case": "participant-rejects",
+  "files": {
+    "home": {
+      "sql": "home.sql",
+      "tables": {
+        "home_budget": 1
+      }
+    },
+    "visit": {
+      "sql": "visit.sql",
+      "tables": {
+        "visit_budget": 1
+      }
+    },
+    "meta": {
+      "sql": "meta.sql",
+      "tables": {
+        "care_links": 1
+      }
+    }
+  },
+  "event_count": 4,
+  "limits": {}
+}
